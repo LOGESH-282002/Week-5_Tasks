@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7c8d0;
+  height: 100vh;
+}
+
+h1{
+  text-align: center;
+  margin: 20px;
+}
+
+.title{
+  color: #000000;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.counter{
+  text-align: center;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: #e91058;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+form{
+  background-color: #f089b2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 40%;
+  margin: auto;
+  height: 100px;
+}
+
+.txt{
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+  font-size: 16px;
+}
+
+.btn1{
+  width: 25%;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e91058;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.todo-list{
+  margin: 20px auto;
+  width: 40%;
+  background-color: #f089b2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+li{
+    display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.remove-btn{
+  background-color: #e91058;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
